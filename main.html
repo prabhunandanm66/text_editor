@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced Text Editor</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="image-overlay-container">
+      <img
+        src="/background.webp"
+        alt="Background Image"
+        class="background-image"
+      />
+    </div>
+    <p class="text-title">Text Editor _</p>
+    <div class="editor-container">
+      <div class="toolbar">
+        <!-- Basic Formatting -->
+        <button onclick="formatText('bold')">Bold</button>
+        <button onclick="formatText('italic')">Italic</button>
+        <button onclick="formatText('underline')">Underline</button>
+        <button onclick="formatText('strikeThrough')">Strikeout</button>
+
+        <!-- Text Alignment -->
+        <button onclick="formatText('justifyLeft')">Align Left</button>
+        <button onclick="formatText('justifyCenter')">Align Center</button>
+        <button onclick="formatText('justifyRight')">Align Right</button>
+        <button onclick="formatText('justifyFull')">Justify</button>
+
+        <!-- Lists -->
+        <button onclick="formatText('insertUnorderedList')">Bullet List</button>
+        <button onclick="formatText('insertOrderedList')">Numbered List</button>
+
+        <!-- Text and Background Color -->
+        <label for="textColor">Text Color:</label>
+        <input
+          type="color"
+          id="textColor"
+          onchange="changeColor('foreColor', this.value)"
+        />
+
+        <label for="bgColor">Background:</label>
+        <input
+          type="color"
+          id="bgColor"
+          onchange="changeColor('hiliteColor', this.value)"
+        />
+
+        <!-- Font Size -->
+        <label for="fontSize">Font Size:</label>
+        <select id="fontSize" onchange="changeFontSize(this.value)">
+          <option value="1">Small</option>
+          <option value="3" selected>Normal</option>
+          <option value="5">Large</option>
+          <option value="7">Extra Large</option>
+        </select>
+      </div>
+
+      <!-- Editor Area -->
+      <div contenteditable="true" class="editor" id="editor">
+        Write something ...
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
