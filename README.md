@@ -11,7 +11,7 @@ A lightweight and customizable web-based text editor built with HTML, CSS, and J
 - 🔠 **Font formatting** font sizes and alignments.
 
 ---
-## Preview : https://spiffy-pothos-2b002a.netlify.app/ 
+## Preview : https://text-editorr-typo.netlify.app/
 
 ## **Getting Started**
 
