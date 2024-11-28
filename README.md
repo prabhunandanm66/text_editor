@@ -11,14 +11,4 @@ A lightweight and customizable web-based text editor built with HTML, CSS, and J
 - 🔠 **Font formatting** font sizes and alignments.
 
 ---
-## Preview : typeit-text-editor.netlify.app
-
-## **Getting Started**
-
-### Prerequisites
-
-Ensure you have the following installed:
-- A modern web browser (e.g., Chrome, Firefox, Edge).
-- A code editor (e.g., VSCode) for local modifications (optional).
-
----
+## Preview and Play here : https://typeit-text-editor.netlify.app
