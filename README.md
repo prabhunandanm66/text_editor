@@ -7,8 +7,8 @@ A lightweight and customizable web-based text editor built with HTML, CSS, and J
 ## **Features**
 
 - 🖋️ **Rich Text Editing:** Supports bold, italic, underline, and strikethrough formatting.
-- 🎨 **Custom Styling:** Easily apply colors, font sizes, and other styles.
-- 🔠 **Font formatting**
+- 🎨 **Custom Styling:** Easily apply colors.
+- 🔠 **Font formatting** font sizes and alignments.
 
 ---
 ## Preview : https://spiffy-pothos-2b002a.netlify.app/ 
