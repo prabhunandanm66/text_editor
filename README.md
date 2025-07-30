@@ -11,4 +11,3 @@ A lightweight and customizable web-based text editor built with HTML, CSS, and J
 - 🔠 **Font formatting** font sizes and alignments.
 
 ---
-## Preview and Play here : https://typeit-text-editor.netlify.app
